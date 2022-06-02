@@ -1,10 +1,14 @@
-#c = float(input("escreva a temperatura em graus C: "))
+#======================= Converter temperatura de °C para °F ============================
+
+#c = float(input("escreva a temperatura em graus °C: "))
 
 #f = (c * 9/5) + 32
 
-#print("a temperatura graus F: ", f)
+#print("a temperatura graus °F: ", f)
 
-#====================================================
+#========================================================================================
+
+#========= Mostrar quantos litros a pessoa abasteceu a partir do preço e do valor colocado ==========
 
 #preco = float(input("Preço da gasolina: "))
 #valor = float(input("valor a abastercer: "))
@@ -13,7 +17,9 @@
 
 #print(f"você abasteceu {l:.2f} litros")
 
-#===================================================
+#=====================================================================================================
+
+#======================= Média media aritmetica ============================
 
 #nota1 = float(input("Escreva a sua primeira nota "))
 #nota2 = float(input("Escreva a sua segunda nota "))
@@ -25,7 +31,9 @@
 #print("sua média é de ", media)
 #print("o aluno passou? ", passou)
 
-#===================================================
+#===========================================================================
+
+#======================== Reajuste de salário ===========================
 
 #salario = float(input("Salário: "))
 #reajuste = float(input("Reajuste: "))
@@ -34,7 +42,9 @@
 
 #print("O salário reajustado é: ", salReajust)
 
-#===================================================
+#========================================================================
+
+#=========== Informar quais veículos você pode dirigir de acordo com a sua carteira ==================
 
 #tipoCarteira = input("Qual sua categoria de carteira? ").upper()
 
@@ -59,7 +69,9 @@
 #else :
 #    print("Informe uma categoria válida")
 
-#===================================================
+#====================================================================================================
+
+#====================== Sortear número de um dado e tentar acertar ==============================
 
 #import random
 
@@ -80,14 +92,18 @@
 #    elif int(numTentativa) != numDado :
 #       print("Você errou!")
     
-#====================================================
+#===============================================================================================
+
+#======================= Contador =============================
 
 #i = 0
 #for i in range(101) :
 #    if i % 2 != 0 : continue 
 #    print(i)
 
-#====================================================
+#==============================================================
+
+#============ Transferir itens repetidos para outra lista ==================
 
 #lista = ["abacate", "melão", "ameixa", "tangerina", "romã", "romã"]
 #lista2 = []
@@ -98,7 +114,9 @@
        
 #print(lista2)
 
-#====================================================
+#===========================================================================
+
+#========== Mostrar apenas itens não repetidos de duas listas =================
 
 #lista1 = ["messi", "ronaldinho", "iniesta", "mascherano", "messi"]
 #lista2 = ["messi", "xavi", "mascherano", "iniesta"]
@@ -110,7 +128,9 @@
 #print(len(lista3))
 #print(lista3)
 
-#====================================================
+#=============================================================================
+
+#================== Dizer se a palavra é um palíndromo =============================
 
 #palavraUsuario = input("Escreva a palvra: ")
 
@@ -125,5 +145,5 @@
 
 #pali(palavraUsuario)
 
-#====================================================
+#==================================================================================
 
