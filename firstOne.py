@@ -143,9 +143,6 @@ indicadorCasa = 'X'
 #indicador ganhador
 ganhador = "Velha"
 
-
-#---------------------
-
 def fazerTabuleiro() :
     
     for casa in range(9) :
@@ -267,7 +264,7 @@ while not fimJogo:
                 else : 
                     print("[ ", " ]", "\t", end="")
                 if casa == 4 or casa == 7 :
-                    print("\n") '''
+                    print("\n")
 
 from os import system, name
 
@@ -284,7 +281,7 @@ indicadorCasa = 'X'
 #indicador ganhador
 ganhador = "Velha"
 
-#---------------------
+# Código acima errado, código abaixo interminado ----------------------------------------------------------------------------
 
 def clear() :
     if name == 'nt' : _ = system('cls')
@@ -330,4 +327,4 @@ while not fimJogo:
                 if vezJogadorA == True :
                     indicadorCasa = "X"
                 else :
-                    indicadorCasa = "O"
+                    indicadorCasa = "O"'''
